@@ -1,0 +1,16 @@
+PODS:
+  - CCAutocomplete (0.0.6)
+
+DEPENDENCIES:
+  - CCAutocomplete
+
+SPEC REPOS:
+  trunk:
+    - CCAutocomplete
+
+SPEC CHECKSUMS:
+  CCAutocomplete: 85a360f334da4c54d60b290373a84763458f96a1
+
+PODFILE CHECKSUM: dae1d86df248ee682119b5818da7f0d411bc7e33
+
+COCOAPODS: 1.11.2

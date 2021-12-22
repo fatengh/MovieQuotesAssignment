@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         
         
         }
-    
+    //to swip
     @objc func swpmethod(gesture: UISwipeGestureRecognizer){
         
           if selectedMovies.isEmpty == false{
