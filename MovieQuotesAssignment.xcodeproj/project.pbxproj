@@ -14,9 +14,14 @@
 		8439F1BB27726AB600BCFD6F /* MovieQuotesAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8439F1B927726AB600BCFD6F /* MovieQuotesAssignment.xcdatamodeld */; };
 		8439F1BD27726AB700BCFD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8439F1BC27726AB700BCFD6F /* Assets.xcassets */; };
 		8439F1C027726AB700BCFD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8439F1BE27726AB700BCFD6F /* LaunchScreen.storyboard */; };
+		8439F1C827726C3800BCFD6F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439F1C727726C3800BCFD6F /* CollectionViewCell.swift */; };
+		8439F1ED2772931F00BCFD6F /* GussingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439F1EC2772931F00BCFD6F /* GussingViewController.swift */; };
+		BC3FD6A6737B1C3F2B4E4E4A /* Pods_MovieQuotesAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BA6EDF328993A70495A4C /* Pods_MovieQuotesAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185BA6EDF328993A70495A4C /* Pods_MovieQuotesAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieQuotesAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9E1F8A3078A0E685380D93 /* Pods-MovieQuotesAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieQuotesAssignment.release.xcconfig"; path = "Target Support Files/Pods-MovieQuotesAssignment/Pods-MovieQuotesAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		8439F1AD27726AB600BCFD6F /* MovieQuotesAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieQuotesAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8439F1B027726AB600BCFD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8439F1B227726AB600BCFD6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		8439F1BC27726AB700BCFD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8439F1BF27726AB700BCFD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8439F1C127726AB700BCFD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8439F1C727726C3800BCFD6F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8439F1EC2772931F00BCFD6F /* GussingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GussingViewController.swift; sourceTree = "<group>"; };
+		DD0E6490F1AC55B8A650054D /* Pods-MovieQuotesAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieQuotesAssignment.debug.xcconfig"; path = "Target Support Files/Pods-MovieQuotesAssignment/Pods-MovieQuotesAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3FD6A6737B1C3F2B4E4E4A /* Pods_MovieQuotesAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				8439F1AF27726AB600BCFD6F /* MovieQuotesAssignment */,
 				8439F1AE27726AB600BCFD6F /* Products */,
+				9F01709D7F590FF039A9E7CF /* Pods */,
+				A8EFA086FD5EE623A0EE7A4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +72,8 @@
 				8439F1B027726AB600BCFD6F /* AppDelegate.swift */,
 				8439F1B227726AB600BCFD6F /* SceneDelegate.swift */,
 				8439F1B427726AB600BCFD6F /* ViewController.swift */,
+				8439F1EC2772931F00BCFD6F /* GussingViewController.swift */,
+				8439F1C727726C3800BCFD6F /* CollectionViewCell.swift */,
 				8439F1B627726AB600BCFD6F /* Main.storyboard */,
 				8439F1BC27726AB700BCFD6F /* Assets.xcassets */,
 				8439F1BE27726AB700BCFD6F /* LaunchScreen.storyboard */,
@@ -70,6 +83,23 @@
 			path = MovieQuotesAssignment;
 			sourceTree = "<group>";
 		};
+		9F01709D7F590FF039A9E7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E6490F1AC55B8A650054D /* Pods-MovieQuotesAssignment.debug.xcconfig */,
+				3E9E1F8A3078A0E685380D93 /* Pods-MovieQuotesAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8EFA086FD5EE623A0EE7A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185BA6EDF328993A70495A4C /* Pods_MovieQuotesAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8439F1C427726AB700BCFD6F /* Build configuration list for PBXNativeTarget "MovieQuotesAssignment" */;
 			buildPhases = (
+				011C5D289DDF3DD53B11D1FD /* [CP] Check Pods Manifest.lock */,
 				8439F1A927726AB600BCFD6F /* Sources */,
 				8439F1AA27726AB600BCFD6F /* Frameworks */,
 				8439F1AB27726AB600BCFD6F /* Resources */,
+				73B51033A0429798F211940B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +168,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		011C5D289DDF3DD53B11D1FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieQuotesAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B51033A0429798F211940B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieQuotesAssignment/Pods-MovieQuotesAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieQuotesAssignment/Pods-MovieQuotesAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieQuotesAssignment/Pods-MovieQuotesAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8439F1A927726AB600BCFD6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8439F1C827726C3800BCFD6F /* CollectionViewCell.swift in Sources */,
 				8439F1BB27726AB600BCFD6F /* MovieQuotesAssignment.xcdatamodeld in Sources */,
 				8439F1B527726AB600BCFD6F /* ViewController.swift in Sources */,
+				8439F1ED2772931F00BCFD6F /* GussingViewController.swift in Sources */,
 				8439F1B127726AB600BCFD6F /* AppDelegate.swift in Sources */,
 				8439F1B327726AB600BCFD6F /* SceneDelegate.swift in Sources */,
 			);
@@ -288,9 +364,11 @@
 		};
 		8439F1C527726AB700BCFD6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0E6490F1AC55B8A650054D /* Pods-MovieQuotesAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -298,6 +376,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,9 +394,11 @@
 		};
 		8439F1C627726AB700BCFD6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9E1F8A3078A0E685380D93 /* Pods-MovieQuotesAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,6 +406,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
